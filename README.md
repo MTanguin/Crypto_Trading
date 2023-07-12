@@ -66,5 +66,6 @@ The Cryptocurrency Trading Strategies App is for informational purposes only and
 ## Source:
 
 ChatGPT
+
 [coinmarket API](https://pro.coinmarketcap.com/api/v1#)
 
