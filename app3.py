@@ -13,7 +13,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 def get_market_data(symbol):
     url = f"https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol={symbol}&convert=USD"
     headers = {
-        "X-CMC_PRO_API_KEY": "589080bf-caaa-446c-9f76-9aed6450859e"  # Replace with your CoinMarketCap API key
+        "X-CMC_PRO_API_KEY": "API_KEY"  # Replace with your CoinMarketCap API key
     }
     response = requests.get(url, headers=headers)
     data = response.json()
@@ -32,7 +32,7 @@ def visualize_percent_change(df):
 def get_available_cryptocurrencies():
     url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
     headers = {
-        "X-CMC_PRO_API_KEY": "589080bf-caaa-446c-9f76-9aed6450859e"  # Replace with your CoinMarketCap API key
+        "X-CMC_PRO_API_KEY": "API_KEY"  # Replace with your CoinMarketCap API key
     }
     response = requests.get(url, headers=headers)
     data = response.json()
