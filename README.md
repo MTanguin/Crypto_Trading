@@ -1,7 +1,5 @@
-#### Crypto_Trading 
-#### ChatGPT 
-#### Prompt Engineering
-#### Cryptocurrency Trading Strategies App
+#Crypto_Trading #ChatGPT #Prompt Engineering
+#Cryptocurrency Trading Strategies App
 
 ![CryptoData](https://github.com/MTanguin/Crypto_Trading/assets/114210481/c0c52200-417e-4f9f-9e18-63589f680a19)
 
