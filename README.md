@@ -1,5 +1,6 @@
 #### Crypto_Trading 
-#### ChatGPT #### PromptEngineering
+#### ChatGPT 
+#### PromptEngineering
 
 # Cryptocurrency Trading Strategies App
 
