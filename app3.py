@@ -165,9 +165,7 @@ def quantitative_trading(chosen_crypto, initial_capital):
 
 # Create the Streamlit app
 def run_app():
-    # Set app title
-    st.title("Trading Strategies")
-
+    
     # Fetch the available cryptocurrencies
     available_cryptos = get_available_cryptocurrencies()
 
