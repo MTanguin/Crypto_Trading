@@ -4,6 +4,17 @@
 
 # Cryptocurrency Trading Strategies App
 
+![CryptoData](https://github.com/MTanguin/Crypto_Trading/assets/114210481/c0c52200-417e-4f9f-9e18-63589f680a19)
+
+![Percent Change Analysis](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d03c9396-2742-48f3-9660-609762c24798)
+
+![Trading App](https://github.com/MTanguin/Crypto_Trading/assets/114210481/e383bbf0-3611-4e03-8cf2-7f1b2c42f50a)
+
+![CryptoDataViz](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d7359003-b1df-458b-8a97-6f0b78ae9c39)
+
+![Portfolio](https://github.com/MTanguin/Crypto_Trading/assets/114210481/34cfb91c-5edf-488a-939f-6b619ec01559)
+
+
 The Cryptocurrency Trading Strategies App is a Streamlit application that provides trading recommendations and performance analysis based on price change analysis of various cryptocurrencies. The app fetches market data from the CoinMarketCap API and uses visualizations to assist users in making informed trading decisions.
 
 ## Features
