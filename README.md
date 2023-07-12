@@ -8,7 +8,8 @@
 
 ![Percent Change Analysis](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d03c9396-2742-48f3-9660-609762c24798)
 
-![Trading App](https://github.com/MTanguin/Crypto_Trading/assets/114210481/e383bbf0-3611-4e03-8cf2-7f1b2c42f50a)
+![Trading App](https://github.com/MTanguin/Crypto_Trading/assets/114210481/ac1bcb24-c566-49e5-9162-4c78cc344a50)
+
 
 ![CryptoDataViz](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d7359003-b1df-458b-8a97-6f0b78ae9c39)
 
