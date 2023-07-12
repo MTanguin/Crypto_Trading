@@ -5,6 +5,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
+
 # Disable the PyplotGlobalUseWarning
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -12,13 +13,20 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 def get_market_data(symbol):
     url = f"https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol={symbol}&convert=USD"
     headers = {
-        "X-CMC_PRO_API_KEY": "API_KEY"  # Replace with your CoinMarketCap API key
+        "X-CMC_PRO_API_KEY": "589080bf-caaa-446c-9f76-9aed6450859e"  # Replace with your CoinMarketCap API key
     }
     response = requests.get(url, headers=headers)
     data = response.json()
     return data["data"][symbol]
 
 st.title("Cryptocurrency Trading Strategies Based on Price Change Analysis")
+
+# Function to visualize the percent change analysis
+def visualize_percent_change(df):
+    fig = px.bar(df, x="Symbol", y=["Percent Change 1h", "Percent Change 24h", "Percent Change 7d"],
+                 title="Percent Change Analysis")
+    fig.update_layout(xaxis_title="Cryptocurrency", yaxis_title="Percent Change (%)")
+    st.plotly_chart(fig)
 
 # Function to fetch the list of available cryptocurrencies from the API
 def get_available_cryptocurrencies():
@@ -48,13 +56,6 @@ def get_available_cryptocurrencies():
         "Market Cap Rank": market_cap_rank
     })
     
-    # Visualization - Bar plot of percent changes
-    fig = px.bar(df, x="Symbol", y=["Percent Change 1h", "Percent Change 24h", "Percent Change 7d"],
-                 title="Percent Change Analysis")
-    fig.update_layout(xaxis_title="Cryptocurrency", yaxis_title="Percent Change (%)")
-    st.plotly_chart(fig)
-    
-
     return df
 
 # Fetch the available cryptocurrencies
@@ -63,6 +64,10 @@ crypto_data = get_available_cryptocurrencies()
 # Display the data in a DataFrame format
 st.markdown("##### Top 100 Cryptocurrencies Data:")
 st.dataframe(crypto_data)
+
+# Visualize the percent change analysis
+visualize_percent_change(crypto_data)
+
 
 
 # Trading strategy
@@ -168,8 +173,6 @@ def run_app():
 
     # Prompt the user to choose the cryptocurrency for trading
     chosen_crypto = st.selectbox("Select the cryptocurrency for trading:", available_cryptos)
-
-    # Prompt the user to enter their initial capital
     initial_capital = st.number_input("Enter your initial capital:", min_value=0.0)
 
     # Execute the trading strategy
@@ -178,3 +181,4 @@ def run_app():
 # Run the Streamlit app
 if __name__ == "__main__":
     run_app()
+
