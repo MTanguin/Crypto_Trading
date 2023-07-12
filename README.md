@@ -2,7 +2,7 @@
 #### ChatGPT 
 #### PromptEngineering
 
-# Cryptocurrency Trading Strategies App
+## Cryptocurrency Trading Strategies App
 
 ![CryptoData](https://github.com/MTanguin/Crypto_Trading/assets/114210481/c0c52200-417e-4f9f-9e18-63589f680a19)
 
@@ -17,7 +17,7 @@
 
 The Cryptocurrency Trading Strategies App is a Streamlit application that provides trading recommendations and performance analysis based on price change analysis of various cryptocurrencies. The app fetches market data from the CoinMarketCap API and uses visualizations to assist users in making informed trading decisions.
 
-## Features
+### Features
 
 - Fetches the latest market data for a given cryptocurrency symbol.
 - Provides trading recommendations based on price changes and market cap rank.
@@ -25,7 +25,7 @@ The Cryptocurrency Trading Strategies App is a Streamlit application that provid
 - Displays visualizations of percent changes and market cap rank for each cryptocurrency.
 - Allows users to select a cryptocurrency for trading and enter their initial capital.
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
@@ -52,7 +52,7 @@ streamlit run app3.py
 
 5. The app will open in your browser. You can select a cryptocurrency for trading and enter your initial capital to see the trading recommendations and performance analysis.
 
-## Dependencies
+### Dependencies
 
 The following dependencies are required to run the app:
 
@@ -65,11 +65,11 @@ The following dependencies are required to run the app:
 You can install them using the command mentioned in the installation steps.
 
 
-## Disclaimer
+### Disclaimer
 
 The Cryptocurrency Trading Strategies App is for informational purposes only and should not be considered financial or investment advice. Trading cryptocurrencies involves risks, and users should conduct their own research and consult with a professional financial advisor before making any investment decisions.
 
-## Acknowledgments
+### Acknowledgments
 
 - The Cryptocurrency Trading Strategies App is built using the CoinMarketCap API.
 - The app is inspired by various trading strategies and performance analysis techniques used in the cryptocurrency market.
