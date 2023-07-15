@@ -72,7 +72,7 @@ The Cryptocurrency Trading Strategies App is for informational purposes only and
 - The Cryptocurrency Trading Strategies App is built using the CoinMarketCap API.
 - The app is inspired by various trading strategies and performance analysis techniques used in the cryptocurrency market.
 
-## Source:
+## Sources:
 
 ChatGPT,  [coinmarket API](https://pro.coinmarketcap.com/api/v1#)
 
