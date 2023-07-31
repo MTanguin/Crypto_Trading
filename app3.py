@@ -84,7 +84,7 @@ def quantitative_trading(chosen_crypto, initial_capital):
         market_cap_rank = data["cmc_rank"]
 
         # Trading logic
-        if percent_change_1h > 0 and percent_change_24h > 0 or percent_change_7d > 0 and market_cap_rank <= 10:
+        if percent_change_1h > 0 and percent_change_24h > 0 and percent_change_7d > 0 and market_cap_rank <= 10:
             # Buy if all percent changes are positive and the cryptocurrency is within the top 10 by market cap
             st.write(f"Buy {symbol} at ${price:.10f}")
         elif percent_change_1h < 0 or percent_change_24h < 0 or percent_change_7d < 0:
