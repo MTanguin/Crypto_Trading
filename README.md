@@ -1,12 +1,12 @@
 #Crypto_Trading #ChatGPT #Prompt Engineering
 #Cryptocurrency Trading Strategies App
 
+
 ![CryptoData](https://github.com/MTanguin/Crypto_Trading/assets/114210481/c0c52200-417e-4f9f-9e18-63589f680a19)
 
 ![Percent Change Analysis](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d03c9396-2742-48f3-9660-609762c24798)
 
 ![Trading App](https://github.com/MTanguin/Crypto_Trading/assets/114210481/ac1bcb24-c566-49e5-9162-4c78cc344a50)
-
 
 ![CryptoDataViz](https://github.com/MTanguin/Crypto_Trading/assets/114210481/d7359003-b1df-458b-8a97-6f0b78ae9c39)
 
